@@ -11,8 +11,6 @@ Abstract: This paper presents a simple and effective two-stage mesh denoising al
 
 # Requirement:
 
-Windows 7 or newer.
-
 Java.
 
 # Input Supported File:
@@ -26,21 +24,23 @@ obj, off, stl and jvx.
     
     2. It has 6 different folders regarding the different models.
     
-    3. Each folder has a .bat file (e.g. launcherBearing.bat in bearing_figure-11 folder).
+    3. Each folder has a .bat file for windows users (e.g. launcherBearingWin.bat in bearing_figure-11 folder) and .sh flie for unix users (e.g. launcherBearingUnix.sh in bearing_figure-11 folder).
     
-    4. Run this .bat file by double click.
+    4. Run the .bat file by double click on windows platform.
     
-    5. It will open a new window with a loaded model.
+    5. On Unix system, go to the corresponding folder using terminal and  Run the .sh file using the command "./launcherBearingUnix.sh".
     
-    6. For every model, we fix the parameters in the scroll bars, so you dont have to change them.
+    6. It will open a new window with a loaded model.
     
-    7. To compute the noise-free mesh, user has to press the denoising button (RoFi Denoising).
+    7. For every model, we fix the parameters in the scroll bars, so you dont have to change them.
     
-    8. After that this button color will change and algorithm started.
+    8. To compute the noise-free mesh, user has to press the denoising button (RoFi Denoising).
     
-    9. current status of the algorithm is displayed in lower left corner of the smoothing window.
+    9. After that this button color will change and algorithm started.
     
-    10. Mesh quality of the mesh can be computed using the mesh quaility button.
+    10. current status of the algorithm is displayed in lower left corner of the smoothing window.
+    
+    11. Mesh quality of the mesh can be computed using the mesh quaility button.
    
 
 If you have further questions or not able to compile the algorithm, please write me on following emails:
