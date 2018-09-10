@@ -41,9 +41,9 @@ obj, off, stl and jvx.
     
     9. To compute the noise-free mesh, user has to press the denoising button (RoFi Denoising).
     
-    10. After that this button color will change and algorithm started.
+    10. After that the color of the button will change and algorithm will start.
     
-    11. current status of the algorithm is displayed in lower left corner of the smoothing window.
+    11. current status of the algorithm is displayed in lower left corner of the panel.
     
     12. Mesh quality of the mesh can be computed using the mesh quaility button.
    
