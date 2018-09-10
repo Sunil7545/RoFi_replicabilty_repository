@@ -24,23 +24,28 @@ obj, off, stl and jvx.
     
     2. It has 6 different folders regarding the different models.
     
-    3. Each folder has a .bat file for windows users (e.g. launcherBearingWin.bat in bearing_figure-11 folder) and .sh flie for unix users (e.g. launcherBearingUnix.sh in bearing_figure-11 folder).
+    3. Each folder has .bat files to build and launch the application for windows users (e.g. launcherBearingWin.bat/     
+       buildBearingWin.bat in bearing_figure-11 folder) and .sh files for unix users (e.g. launcherBearingUnix.sh/
+       buildBearingWin.sh in bearing_figure-11 folder).
+       
+    4. First, run the corresponding build file to build the program.
     
-    4. Run the .bat file by double click on windows platform.
+    5. Run the .bat file by double click on windows platform.
     
-    5. On Unix system, go to the corresponding folder using terminal and  Run the .sh file using the command "./launcherBearingUnix.sh".
+    6. On Unix system, go to the corresponding folder using terminal and  Run the .sh file using the command
+       "./launcherBearingUnix.sh".
     
-    6. It will open a new window with a loaded model.
+    7. It will open a new window with a loaded model.
     
-    7. For every model, we fix the parameters in the scroll bars, so you dont have to change them.
+    8. For every model, we fix the parameters in the scroll bars, so you dont have to change them.
     
-    8. To compute the noise-free mesh, user has to press the denoising button (RoFi Denoising).
+    9. To compute the noise-free mesh, user has to press the denoising button (RoFi Denoising).
     
-    9. After that this button color will change and algorithm started.
+    10. After that this button color will change and algorithm started.
     
-    10. current status of the algorithm is displayed in lower left corner of the smoothing window.
+    11. current status of the algorithm is displayed in lower left corner of the smoothing window.
     
-    11. Mesh quality of the mesh can be computed using the mesh quaility button.
+    12. Mesh quality of the mesh can be computed using the mesh quaility button.
    
 
 If you have further questions or not able to compile the algorithm, please write me on following emails:
