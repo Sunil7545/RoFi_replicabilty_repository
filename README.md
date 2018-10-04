@@ -1,4 +1,4 @@
-# RoFi_replicabilty_repository
+# RoFi_replicability_repository
 RoFi Mesh Denoising Algorithm 
 # RoFi-Mesh-Denoising
 
